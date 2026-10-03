@@ -1,0 +1,10 @@
+
+
+public class HelloJVM {
+    public static void main(String[] args) {
+        System.out.println("Hello JVM");
+        System.out.println("java.version: "+System.getProperty("java version"));
+        System.out.println("os name: "+System.getProperty("os.name"));
+    }
+}
+
