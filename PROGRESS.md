@@ -1,6 +1,6 @@
 # Progress
 Current phase: 0 + 1 (setup folded into first Java task)
-Current topic: 1.4 Operators + Git: git mv / git rm
+Current topic: 1.5 Control flow + Git: git rm
 Last session: 2026-10-04
 
 ## Phase 0 — Setup
@@ -18,7 +18,8 @@ Last session: 2026-10-04
 - [x] 1.1 JDK, JRE, JVM, bytecode, javac/java — done 2026-10-03 (checkpoint 4/4)
 - [x] 1.2 main method — done 2026-10-03 (checkpoint 3/3, 1 hint on array index)
 - [x] 1.3 Data types: primitives, sizes, casting, overflow, defaults — done 2026-10-04 (checkpoint 4/4)
-- [ ] 1.4 Operators
+- [x] 1.4 Operators — done 2026-10-04 (checkpoint passed, Q3 after explanation)
+- [ ] 1.5 Control flow
 
 ## Git skills learned
 - [x] init, status, add, commit, log --oneline
@@ -28,6 +29,7 @@ Last session: 2026-10-04
 - [x] git diff vs git diff --staged, git restore <file>, add . depends on current folder (cd ..)
 - [~] Conventional Commits — using feat:, still forgetting docs: prefix
 - [x] git add <specific files> to split commits, git log --stat, git show — 2026-10-04
+- [x] git mv (rename), git show <id>, git show <id> -- <file>, /dev/null = new file — 2026-10-04
 
 ## Mock interview scores
 - (none yet)
