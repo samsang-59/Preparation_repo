@@ -1,6 +1,6 @@
 # Progress
 Current phase: 0 + 1 (setup folded into first Java task)
-Current topic: 1.2 main method (Java task 2) + Git: diff vs diff --staged
+Current topic: 1.3 Data types (next session) + Git: commit --amend practice, git show, log --stat
 Last session: 2026-10-03
 
 ## Phase 0 — Setup
@@ -12,17 +12,20 @@ Last session: 2026-10-03
 - [x] 0.6 .gitignore (+ git rm --cached for already-tracked files) — done 2026-10-03 (pattern mistake)
 - [x] 0.7 remote add origin, remote -v, branch -M main, push -u — done 2026-10-03
 - [x] 0.8 Commit + push PROGRESS.md and MISTAKES.md — done 2026-10-03
-- [~] Checkpoint: 3 areas ✅ (after explanation) — still to do: full add → commit → push WITHOUT help (do it on Java task 2)
+- [x] Checkpoint: 3 areas + add → commit → push without help — passed 2026-10-03
 
 ## Phase 1 — Core Java Refresh
 - [x] 1.1 JDK, JRE, JVM, bytecode, javac/java — done 2026-10-03 (checkpoint 4/4)
-- [ ] 1.2 main method
+- [x] 1.2 main method — done 2026-10-03 (checkpoint 3/3, 1 hint on array index)
+- [ ] 1.3 Data types: primitives vs references, defaults, sizes, casting, overflow
 
 ## Git skills learned
 - [x] init, status, add, commit, log --oneline
 - [x] .gitignore, rm --cached
 - [x] commit --amend (and why not to amend pushed commits; commit ID = SHA-1 hash)
 - [x] remote add, remote -v, branch -M, push -u origin main
+- [x] git diff vs git diff --staged, git restore <file>, add . depends on current folder (cd ..)
+- [ ] Conventional Commits (feat:/fix:/docs:) — introduced 2026-10-03
 
 ## Mock interview scores
 - (none yet)
