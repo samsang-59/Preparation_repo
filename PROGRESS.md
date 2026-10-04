@@ -1,7 +1,7 @@
 # Progress
 Current phase: 0 + 1 (setup folded into first Java task)
-Current topic: 1.3 Data types (next session) + Git: commit --amend practice, git show, log --stat
-Last session: 2026-10-03
+Current topic: 1.4 Operators + Git: git mv / git rm
+Last session: 2026-10-04
 
 ## Phase 0 — Setup
 - [x] 0.1 What is Git vs GitHub, why version control — done 2026-10-03 (needed hints)
@@ -17,7 +17,8 @@ Last session: 2026-10-03
 ## Phase 1 — Core Java Refresh
 - [x] 1.1 JDK, JRE, JVM, bytecode, javac/java — done 2026-10-03 (checkpoint 4/4)
 - [x] 1.2 main method — done 2026-10-03 (checkpoint 3/3, 1 hint on array index)
-- [ ] 1.3 Data types: primitives vs references, defaults, sizes, casting, overflow
+- [x] 1.3 Data types: primitives, sizes, casting, overflow, defaults — done 2026-10-04 (checkpoint 4/4)
+- [ ] 1.4 Operators
 
 ## Git skills learned
 - [x] init, status, add, commit, log --oneline
@@ -25,7 +26,8 @@ Last session: 2026-10-03
 - [x] commit --amend (and why not to amend pushed commits; commit ID = SHA-1 hash)
 - [x] remote add, remote -v, branch -M, push -u origin main
 - [x] git diff vs git diff --staged, git restore <file>, add . depends on current folder (cd ..)
-- [ ] Conventional Commits (feat:/fix:/docs:) — introduced 2026-10-03
+- [~] Conventional Commits — using feat:, still forgetting docs: prefix
+- [x] git add <specific files> to split commits, git log --stat, git show — 2026-10-04
 
 ## Mock interview scores
 - (none yet)
