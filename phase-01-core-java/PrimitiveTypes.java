@@ -1,4 +1,4 @@
-public class DataTypes {
+public class PrimitiveTypes {
     public static void main(String[] args){
         byte byte_Val = 10;
         short short_val = 20;
