@@ -1,36 +1,36 @@
 # JavaScript Progress (Interview cram — backend: Node.js + Express)
 Mode: CRAM for interview (2026-10-04). Same teaching style as Java: simple language, one question at a time, hint first, log mistakes.
-Current phase: JS-1
-Current topic: JS-1 Core basics
-Last session: 2026-10-04
+Current phase: JS-4
+Current topic: JS-4 Git stash → then JS-5 Node.js
+Last session: 2026-10-05
 
 ## JS-1 — Core basics
-- [ ] var / let / const, hoisting, TDZ
-- [ ] Types: primitive vs reference, typeof (incl. typeof null)
-- [ ] == vs ===, type coercion, truthy / falsy
-- Git: branches (branch, switch -c), what HEAD is
+- [x] var / let / const, hoisting, TDZ — 2026-10-04
+- [x] Types, typeof (incl. typeof null) — 2026-10-04
+- [x] == vs ===, coercion, truthy / falsy — 2026-10-04
+- [x] Git: branches (switch -c, switch, branch), HEAD — 2026-10-04
 
 ## JS-2 — Functions 🔥
-- [ ] Declaration vs expression vs arrow function
-- [ ] Scope (global / function / block), scope chain
-- [ ] Closures
-- [ ] `this` (normal vs arrow), call / apply / bind
-- [ ] Higher-order functions: map / filter / reduce
-- Git: merge (fast-forward vs 3-way), log --graph
+- [x] Declaration vs expression vs arrow function — 2026-10-04
+- [x] Scope — 2026-10-04
+- [x] Closures (+ var/let setTimeout loop) — 2026-10-04
+- [x] this (normal vs arrow), call / apply / bind — 2026-10-05
+- [x] map / filter / reduce — 2026-10-05
+- [x] Git: merge (fast-forward), branch -d — 2026-10-05
 
 ## JS-3 — Objects & ES6+
-- [ ] Destructuring, spread / rest
-- [ ] Shallow vs deep copy (reference trap)
-- [ ] Optional chaining ?. and nullish ??
-- [ ] Prototypes, classes, extends / super
-- Git: merge conflicts (create one, resolve it)
+- [x] Destructuring, spread / rest — 2026-10-05
+- [x] Shallow vs deep copy, structuredClone — 2026-10-05
+- [x] ?. and ?? (vs ||) — 2026-10-05
+- [x] Prototypes, classes, prototype chain — 2026-10-05
+- [x] Git: merge conflict created + resolved, 3-way merge — 2026-10-05
 
 ## JS-4 — Async JS 🔥🔥
-- [ ] Single thread, call stack, event loop
-- [ ] Callbacks → callback hell
-- [ ] Promises (then / catch / finally), Promise.all / allSettled / race / any
-- [ ] async / await + try/catch error handling
-- [ ] Microtask vs macrotask: setTimeout vs Promise output-order questions
+- [x] Single thread, event loop — 2026-10-05
+- [x] Callback hell — 2026-10-05
+- [x] Promises, all / allSettled / race / any — 2026-10-05
+- [x] async / await + try/catch — 2026-10-05
+- [x] Microtask vs macrotask ordering — 2026-10-05
 - Git: stash
 
 ## JS-5 — Node.js 🔥
