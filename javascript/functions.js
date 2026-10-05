@@ -14,8 +14,8 @@ console.log(counter());
 
 // map , filter , reduce 
 
-const arr = [1 , 2 , 3 ];
 
+const arr = [1,2,3,7,8,9];
 const doubled = arr.map(n => n * 5);
 const evens = arr.filter(n => n % 2 === 0);
 const sum = arr.reduce((sum , n) => sum + n , 0);
