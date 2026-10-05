@@ -14,7 +14,7 @@ console.log(counter());
 
 // map , filter , reduce 
 
-const arr = [10 , 20 , 30 , 40 , 50];
+const arr = [1 , 2 , 3 ];
 
 const doubled = arr.map(n => n * 5);
 const evens = arr.filter(n => n % 2 === 0);
